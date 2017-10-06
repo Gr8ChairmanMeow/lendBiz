@@ -25,10 +25,10 @@
         <a href="../index.html" class="hLink">
             <div class="sMenu"><span class="glyphicon glyphicon-home"></span> HOME</div>
         </a>
-        <a href="#" class="hLink">
+        <a href="about.html" class="hLink">
             <div class="sMenu"><span class="glyphicon glyphicon-question-sign"></span> ABOUT US</div>
         </a>
-        <a href="apply.html" class="hLink">
+        <a href="#" class="hLink">
             <div class="sMenu"><span class="glyphicon glyphicon-usd"></span> APPLY</div>
         </a>
     </nav>
@@ -44,10 +44,10 @@
                 <a href="../index.html" class="hLink">
                     <div class="hMenu"><span class="glyphicon glyphicon-home"></span> HOME</div>
                 </a>
-                <a href="#" class="hLink">
+                <a href="about.html" class="hLink">
                     <div class="hMenu"><span class="glyphicon glyphicon-question-sign"></span> ABOUT US</div>
                 </a>
-                <a href="apply.html" class="hLink">
+                <a href="#" class="hLink">
                     <div class="hMenu"><span class="glyphicon glyphicon-usd"></span> APPLY</div>
                 </a>
             </div>
@@ -62,14 +62,33 @@
             <div class="col-s-12 col-md-2 mBody">
                 1 of 3
             </div>
-            <div class="col-s-12 col-md-8 mBody" style="height:500px">
-                <h1>ABOUT US</h1>
+            <div class="col-s-12 col-md-8 mBody" id="applyForm" style="height:500px">
+                <h1>APPLY</h1>
                 <hr style="border:black solid 1px">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi commodo enim in felis suscipit, sit amet vulputate purus euismod. Proin tellus nulla, molestie sit amet tincidunt eget, commodo sit amet dui. Aliquam at mattis nunc. Curabitur facilisis vel turpis id dapibus. Nam elementum mi quis lacinia vestibulum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vulputate magna at accumsan interdum. Proin eget dui ac lorem efficitur maximus.
-
-                Sed ut libero quam. Vestibulum bibendum, magna non cursus dignissim, lacus nunc aliquam nibh, in luctus tortor mauris ut nibh. Sed id metus eget felis malesuada auctor. Sed tempor arcu eget pretium scelerisque. Praesent non gravida nulla, ut ornare velit. Maecenas a lacinia orci. Praesent quam nibh, volutpat id condimentum id, maximus et ante. Quisque a dui eleifend, scelerisque turpis id, eleifend diam. Etiam ut tortor eleifend augue pellentesque blandit quis nec lacus. Nam ipsum tellus, dignissim ac sollicitudin a, convallis aliquet sapien. In vel eleifend nisi. Aliquam lorem metus, laoreet vitae lacus in, imperdiet commodo orci. Proin sollicitudin ipsum at dictum auctor.
-
-                Donec et justo quis nulla finibus iaculis quis eu elit. Nullam dui diam, faucibus ut felis sed, consectetur lacinia dolor. Donec elementum placerat dui nec scelerisque. Pellentesque id est quis leo finibus mattis. Nam sit amet lobortis felis, a viverra nulla. Pellentesque ullamcorper mi vitae risus rhoncus, non vestibulum nisi faucibus. Nunc volutpat varius auctor. Pellentesque in vehicula nisl. Nulla hendrerit nisi ut est semper fermentum. Nulla ac elementum quam, ut laoreet turpis. Etiam iaculis purus sed augue rutrum commodo. Nunc venenatis a erat quis cursus. Fusce varius ultrices urna ac rutrum. Mauris libero nulla, interdum sit amet nunc non, lacinia venenatis risus.</p>
+                <form id="myForm">
+                    Zip Code:<br>
+                    <input type="text" name="zipCode">
+                    <br>
+                    First name:<br>
+                    <input type="text" name="firstName">
+                    <br>
+                    Last name:<br>
+                    <input type="text" name="lastName">
+                    <br>
+                    State:<br>
+                    <input type="text" name="state">
+                    <br>
+                    Employment Status:<br>
+                    <input type="text" name="employStatus">
+                    <br>
+                    Yearly Income:<br>
+                    <input type="text" name="yrIncome">
+                    <br>
+                    Date of Birth:<br>
+                    <input type="text" name="dob">
+                    <br>
+                    <div class="divButton" id="nextBtn"><strong>Next</strong></div>
+                </form>
             </div>
             <div class="col-s-12 col-md-2 mBody">
                 1 of 3

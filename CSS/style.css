@@ -67,11 +67,19 @@
 
 /* IDs */
 
+#box{
+	border:black solid 1px;
+	width: 50%;
+	padding:0.5em;
+  	margin: 0 auto;
+}
+
 #divMenu{
 	padding-top:1em;
 	text-align:center;
 	border:black dotted 2px;
 	height:200px;
+	visibility:hidden;
 }
 
 .mSidebar {
@@ -115,6 +123,10 @@
 
 	.hLink:focus{
 		color:black;
+	}
+
+	#box{
+	width: 30%;
 	}
 }
 
