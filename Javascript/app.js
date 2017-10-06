@@ -21,12 +21,15 @@ var nextForm = "Loan Amount:<br>"+
 var completeForm = "<div id='box'>Based on your selection you qualify for a business loan from the following underwriters:</div"
 
 $(".mIcon .divButton").on("click", function(){
-	var check = $("#divMenu").css("visibility");
-	if(check === "visible"){
-		$("#divMenu").css("visibility","hidden");
+	var check = $("#divMenu").css("display");
+	/*console.log(check);*/
+	if(check === "block"){
+		$("#divMenu").css("display","none");
+		$("#divHolder").css("display","block");
 	}
     else{
-    	$("#divMenu").css("visibility","visible");
+    	$("#divMenu").css("display","block");
+    	$("#divHolder").css("display","none");
     }
 });
 
