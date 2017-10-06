@@ -44,7 +44,7 @@
 
 .mAbout p{
 	text-align:left;
-	font-size:20px;
+	font-size:22px;
 }
 
 .mAbout hr{
@@ -107,9 +107,10 @@
 
 #box{
 	border:black solid 1px;
-	width: 50%;
+	width: 75%;
 	padding:0.5em;
   	margin: 2em auto 0;
+  	font-size:20px;
 }
 
 #divMenu{
@@ -145,7 +146,7 @@
 /*MEDIA QUERIES*/
 
 @media only screen and (max-width: 992px) {
-	.main, .footer {
+	.main, .footer, .divButton {
 		margin-left: 0;
 	}
 	.hLink{
@@ -165,9 +166,13 @@
 	}
 
 	#box{
-		width: 30%;
+		width: 100%;
 		margin-top:0;
 	}
+
+	.mAbout p{
+	font-size:20px;
+}
 }
 
 @media only screen and (max-width: 650px) {
@@ -190,5 +195,23 @@
 
 	#divMenu{
 		padding-bottom:0.75em;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.hMenu{
+		font-size:20px;
+	}
+	.mAbout p{
+		font-size:16px;
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	.hMenu{
+		font-size:16px;
+	}
+	.mAbout p{
+		font-size:14px;
 	}
 }
