@@ -14,12 +14,27 @@
 	display:inline-block;
 }
 
-.divButton:hover{
+.divButton:active{
+	background-color:lightgrey;
+}
+
+html.non-touch .divButton:hover{
 	background-color:lightgrey;
 }
 
 .hMenu{
 	font-size:42px;
+	text-decoration: none;
+}
+
+.hMenu:active{
+	border:black solid 3px;
+	text-decoration: none;
+}
+
+html.non-touch .hMenu:hover{
+	border:black solid 3px;
+	text-decoration: none;
 }
 
 .mBody{
@@ -60,12 +75,21 @@
 	color:white;
 }
 
-.sMenu:hover{
+.sMenu:active{
 	border:white solid 3px;
 	margin-right:0.1em;
 }
 
-.hLink:hover{
+html.non-touch .sMenu:hover{
+	border:white solid 3px;
+	margin-right:0.1em;
+}
+
+.hLink:active{
+	text-decoration: none;
+}
+
+html.non-touch .hLink:hover{
 	text-decoration: none;
 }
 
