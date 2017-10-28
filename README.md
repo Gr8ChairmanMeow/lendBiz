@@ -1,4 +1,4 @@
-# lendBiz #
+# LendBiz #
 
 ## Need a loan? ##
 LendBiz is a mobile-responsive lending platform UI.
